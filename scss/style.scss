@@ -1,0 +1,28 @@
+body {
+    background-color: whitesmoke !important;
+}
+
+h1 {
+    text-align: left;
+    font-size: 36px;
+    margin: 0 200px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    margin: 0 200px;
+}
+
+ul {
+    margin: 0 200px;
+}
+
+
+@import "./components/querys.scss";
+@import "./components/navbar.scss";
+@import "./base/colors.scss";
+@import "./components/depositar.scss";
