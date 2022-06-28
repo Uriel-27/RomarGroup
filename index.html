@@ -2,171 +2,379 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 
-    <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!-- TITULO DE PÁGINA -->
-    <title>Romar Group - Soluciones logísticas</title>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/cb2f71b804.js" crossorigin="anonymous"></script>
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- TITULO DE PÁGINA -->
+  <title>Romar Group - Soluciones logísticas - Depósito</title>
 </head>
 
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 <body>
-    <!-- NAVBAR -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light fondo-menu">
-            <div class="container-fluid container">
-                <!-- LOGO NAVBAR -->
-              <a class="navbar-brand" href="https://romargroup.com.ar/"><img src="img/logo.png" alt="Logo Romar Group"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse dropdown-alinear" id="navbarNavDropdown">
-                
-                <ul class="navbar-nav">
-                    <!-- PRIMER DROPDOWN -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active dropdown-color" aria-current="page" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Mudanzas
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Argentina</a></li>
-                      <li><a class="dropdown-item" href="#">Uruguay</a></li>
-                      <li><a class="dropdown-item" href="#">Internacionales</a></li>
-                    </ul>
-                  </li>
-                  <!-- SEGUNDO DROPDOWN -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active dropdown-color" aria-current="page" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Transporte 
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Carga Generales</a></li>
-                      <li><a class="dropdown-item" href="#">Gualeguaychú</a></li>
-                      <li><a class="dropdown-item" href="#">Internacional Argentina - Uruguay</a></li>
-                    </ul>
-                  </li>
-                  <!-- TERCER DROPDOWN -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active dropdown-color" aria-current="page" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Depósito
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Almacenaje CABA</a></li>
-                      <li><a class="dropdown-item" href="#">Almacenaje de frontera Gualeguaychú</a></li>
-                      <li><a class="dropdown-item" href="#">Desconsolidación de contenedores</a></li>
-                    </ul>
-                  </li>
-                  <!-- LINKS REDES -->
-                  <!-- TELEFONO -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active dropdown-color" aria-current="page" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <img src="img/phone.png" height="18" alt="Teléfono">
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li class="dropdown-item">011 4308 2306</li>
-                    </ul>
-                  </li>
-                  <!-- WHATSAPP -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active dropdown-color" aria-current="page" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <img src="img/whatsapp.png" height="18" alt="Logo de whatsapp">
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" target="_blank" href="https://api.whatsapp.com/send?phone=5493446560067">+54 9 344 656 0067</a></li>
-                      <li><a class="dropdown-item" target="_blank" href="https://api.whatsapp.com/send?phone=5491123877011">+54 9 112 387 7011</a></li>
-                    </ul>
-                  </li>
-                  <!-- MAIL -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active dropdown-color" aria-current="page" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <img src="img/mail.png" height="18" alt="Logo de mail">
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" target="_blank" href="mailto:info@romargroup.com.ar">info@romargroup.com.ar</a></li>
-                    </ul>
-                  </li>
-                </ul>
-         
-              </div>
-            </div>
-          </nav>
-          <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+  <ul class="mb-0 d-flex justify-content-center bg-black social">
+    <!-- LINKS REDES -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle active dropdown-color" aria-current="page" href="#"
+        id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa-solid fa-phone"></i>
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <li class="dropdown-telefono">011 4308 2306</li>
+      </ul>
+    </li>
+    <!-- <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-phone"></i></a>
+    </li> -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle active dropdown-color" aria-current="page" href="#"
+        id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <li><a class="dropdown-item dropdown-navbar" target="_blank" href="https://api.whatsapp.com/send?phone=5493446560067">+54 9 344 656 0067</a></li>
+        <li><a class="dropdown-item dropdown-navbar" target="_blank" href="https://api.whatsapp.com/send?phone=5491123877011">+54 9 112 387 7011</a></li>
+      </ul>
+    </li>
+    <!-- <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </li> -->
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" target="_blank" href="mailto:info@romargroup.com.ar"><i class="fa-solid fa-envelope"></i></a>
+    </li>
+  </ul>
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fondo-menu">
+      <div class="container">
+        <!-- LOGO NAVBAR -->
+        <a class="navbar-brand" href="https://romargroup.com.ar/"><img src="img/logo.png" alt="Logo Romar Group"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse dropdown-alinear" id="navbarNavDropdown">
 
-    </header>
-    
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+          <ul class="navbar-nav">
+            <!-- PRIMER DROPDOWN -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active dropdown-color" aria-current="page" href="#"
+                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mudanzas
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item dropdown-navbar" href="#">Argentina</a></li>
+                <li><a class="dropdown-item dropdown-navbar" href="#">Uruguay</a></li>
+                <li><a class="dropdown-item dropdown-navbar" href="#">Internacionales</a></li>
+              </ul>
+            </li>
+            <!-- SEGUNDO DROPDOWN -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active dropdown-color" aria-current="page" href="#"
+                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Transporte
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item dropdown-navbar" href="#">Carga Generales</a></li>
+                <li><a class="dropdown-item dropdown-navbar" href="#">Gualeguaychú</a></li>
+                <li><a class="dropdown-item dropdown-navbar" href="#">Internacional Argentina - Uruguay</a></li>
+              </ul>
+            </li>
+            <!-- TERCER DROPDOWN -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active dropdown-color" aria-current="page" href="#"
+                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Depósito
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item dropdown-navbar" href="index.html">Almacenaje CABA</a></li>
+                <li><a class="dropdown-item dropdown-navbar" href="deposito2.html">Almacenaje de frontera Gualeguaychú</a></li>
+                <li><a class="dropdown-item dropdown-navbar" href="deposito3.html">Desconsolidación de contenedores</a></li>
+              </ul>
+            </li>
+          </ul>
 
-    <!-- SECCION DEPOSITAR -->
-    <section class="container mt-5">
-        <h1>Depósito - Almacenaje en CABA</h1>
-        <p class="mt-4">En Romar Group almacenamos tus bienes con gran atención y cuidado. Nuestros servicios están orientados a
-            resolver todas tus necesidades de almacenaje. Ofrecemos una amplia selección de opciones de almacenamiento
-            de mercadería general y servicios de transporte dentro del país.</p>
-
-        <div class="text-center">
-            <img src="" alt="Camión amarillo con carga naranja">
         </div>
-        
-        <p class="mt-3">Nuestras instalaciones están localizadas estratégicamente, con ágil acceso y tránsito desde las terminales
-            portuarias para traslados de todo tipo: encomiendas, mudanzas y mercaderías a todo el país. </p>
+      </div>
+    </nav>
+  </header>
 
-        <p class="mt-3">Contamos con un parque de maquinarias para el transporte de cargas de pesos grandes y medianos. Nos
-            ocupamos del desconsolidado de contenedores y el almacenamiento de equipos de gran tamaño.</p>
-        
-        <h2 class="mt-5">Servicio de Almacenaje</h2>
 
-        <p class="mt-3">Prestamos nuestros servicios atendiendo a estándares de eficiencia, calidad y profesionalismo. Disponemos de 
-            equipamiento, tecnología y personal capacitado para estas tareas. </p>
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-        <p class="mt-3">El depósito en CABA se encuentra especialmente diseñado para el almacenaje, control de stock, picking, preparación
-             de pedidos y acondicionamiento secundario. Adicionalmente, proveemos del servicio de bauleras.</p>
+  <!-- SECCION DEPOSITO -->
+  <section>
+    <h1>Depósito - Almacenaje en CABA</h1>
+    <p class="mt-5">En Romar Group almacenamos tus bienes con gran atención y cuidado. Nuestros servicios están
+      orientados a
+      resolver todas tus necesidades de almacenaje. Ofrecemos una amplia selección de opciones de almacenamiento
+      de mercadería general y servicios de transporte dentro del país.</p>
 
-             <ul>
+    <div class="text-center">
+      <img class="truck img-fluid" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine"
+        src="img/truck.png" alt="Camión amarillo con carga naranja">
+    </div>
+
+    <p class="mt-3">Nuestras instalaciones están localizadas estratégicamente, con ágil acceso y tránsito desde las
+      terminales
+      portuarias para traslados de todo tipo: encomiendas, mudanzas y mercaderías a todo el país. </p>
+
+    <p class="mt-3">Contamos con un parque de maquinarias para el transporte de cargas de pesos grandes y medianos. Nos
+      ocupamos del desconsolidado de contenedores y el almacenamiento de equipos de gran tamaño.</p>
+  </section>
+
+  <img src="img/lager.jpeg" class="mt-5 mb-5 img-fluid" alt="Centro de almacenaje">
+
+  <section class="depositar">
+    <div class="difuminado mb-0">
+      <h2 class="mt-5">Servicio de Almacenaje</h2>
+
+      <p class="mt-5 p-sombra">Prestamos nuestros servicios atendiendo a estándares de eficiencia, calidad y
+        profesionalismo. Disponemos de
+        equipamiento, tecnología y personal capacitado para estas tareas. </p>
+
+      <p class="mt-3 p-sombra">El depósito en CABA se encuentra especialmente diseñado para el almacenaje, control de
+        stock, picking, preparación
+        de pedidos y acondicionamiento secundario. Adicionalmente, proveemos del servicio de bauleras.</p>
+
+      <!-- CARDS -->
+      <div class="row d-flex justify-content-center mt-5" data-aos="zoom-in">
+
+        <div class="col-12 col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/almacenaje.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <ul class="lista-centrada">
                 <li>Almacenamiento y embalaje de mercadería.</li>
                 <li>Bauleras.</li>
                 <li>Control de stock y picking</li>
                 <li>Preparación de pedidos.</li>
                 <li>Gestión de mercadería.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/carga.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <ul class="lista-centrada">
                 <li>Acondicionamiento secundario.</li>
                 <li>Personal de carga y descarga.</li>
                 <li>Rampas y autoelevadores.</li>
                 <li>Desconsolidación.</li>
                 <li>Seguridad y control de acceso las 24 hs.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="mt-3 p-sombra">
+        La prioridad es el cuidado y resguardo de mercadería. Facilitamos las tareas del comercio interno
+        y externo con prestaciones de calidad y personal calificado. Por eso nos eligen importadores y
+        exportadores de productos. Eleginos y comprobalo.
+      </p>
+  </section>
+
+  <section>
+    <h3 class="mt-5">¿Qué diferencia a nuestros Depósitos?</h3>
+
+    <p class="mt-5 p-sombra">
+      No elijas a una empresa de almacenamiento por economía de precio o por afinidad a la modalidad de trabajo, eso no
+      siempre es garantía de calidad. Cuando tengas que definir a qué empresa contratar para que almacene tu carga,
+      bienes o mercadería, pensá en Romar Group.
+    </p>
+
+    <p class="mt-3 p-sombra">
+      ¿Por qué te convienen los servicios de Romar Group?
+    </p>
+
+    <p class="mt-3 p-sombra">
+      Tenemos la edificación mejor acondicionada para depositar tus cargas y mercancías. Cuidamos de ellas como si
+      fueran nuestras y trabajamos para evitar que sufran cualquier tipo de daño o rotura.
+    </p>
+
+    <p class="mt-3 p-sombra">
+      Contamos con espacios de almacenamiento preparados para evitar incendios, filtraciones de agua o humedad y la
+      exposición a temperaturas extremas. Acondicionamos el recinto para proteger a todos los productos que están en su
+      interior.
+    </p>
+
+    <p class="mt-3 p-sombra">
+      Algo que no puede faltar es la seguridad de tus pertenencias, por eso contamos con sistemas de CCTV, servicio de
+      control de acceso y monitoreo las 24 hs. No escatimamos en brindarte medidas de seguridad de avanzada para
+      proteger tus mercancías.
+    </p>
+
+    <p class="mt-3 p-sombra">
+      Contratá la calidad, la atención y el profesionalismo de nuestros servicios. Podés contar con Romar Group porque
+      somos especialistas en almacenamiento y sabemos cómo cuidar de tu mercadería.
+    </p>
+  </section>
+
+  <section>
+    <h4 class="mt-5">Solución en la Gestión de Mercaderías</h4>
+
+    <p class="mt-5 p-sombra">
+      Diseñamos distintas soluciones en el almacenaje de mercancías y objetos dependiendo de las características de cada
+      uno. Nos ocupamos del stock de carga y productos de todo tipo de tamaños para asegurar su correcta preservación.
+    </p>
+
+    <p class="mt-3 p-sombra">
+      Cada objeto requiere de un mantenimiento particular, que cuente con el espacio y las condiciones necesarias para
+      que no pierda su valor y buen estado de conservación. En Romar Group nos encargamos del guardado de piezas de gran
+      peso y volumen así como objetos pequeños con alto valor.
+    </p>
+
+    <p class="mt-3 p-sombra">
+      Es importante que verifiques cómo es el proceso de gestión de mercaderías de una empresa de almacenaje, a la hora
+      de decidir la contratación del servicio. Te recomendamos que no optes por aquellos que sean estandarizados, sino
+      que busques a las que te brinden las soluciones adecuadas para lo que necesitás.
+    </p>
+
+    <p class="mt-3 p-sombra">
+      Realizar el movimiento de mercancías requiere de mano de obra calificada y equipamiento preparado para atender la
+      fragilidad de cada una de ellas. Delegá esta tarea a los que saben, confiá en Romar Group.
+    </p>
+
+    <p class="mt-3 p-sombra">
+      Nos ocupamos de hacer la preparación de pedidos, el picking de grupos de distintos productos y el control de stock
+      de mercancías. Tenemos personal calificado para darte el mejor servicio y atención personalizada. Ingresá acá para
+      conocer los tipos de carga con los que trabajamos. <a href="">Ingresá acá</a>
+    </p>
+
+    <h2 class="mt-5">Ingresá tus datos y pedí tu cotización ahora</h2>
+
+    <div class="container text-center">
+      <a href="https://romargroup.com.ar/"><button type="button" class="btn btn-success mt-4">PRESUPUESTO</button></a>
+      <a href="https://romargroup.com.ar/"><button type="button" class="btn btn-danger mt-4">CONTACTO</button></a>
+    </div>
+
+    <h2 class="mt-5">¿Dónde encontrar nuestra oficina y almacenamiento en CABA?</h2>
+
+    <p class="mt-5 p-sombra">Podés encontrar a nuestro servicio de Almacenamiento y Bauleras en CABA en esta dirección:</p>
+
+    <p class="mt-3 p-sombra">Luna 385, Parque Patricios. [CP 1434]</p>
+
+    <p class="mt-3 p-sombra">De lunes a viernes de 8:30 a 17:30 hs.</p>
+
+    <p class="mt-3 p-sombra">Somos tu mejor aliado para el almacenaje y depósito de mercancías. Brindamos servicios que
+      hacen crecer y expandir a las empresas en todo el país. Nos recomiendan por ser especialistas en el almacenaje y
+      transporte.
+    </p>
+
+    <div class="text-center">
+      <img class="truck img-fluid" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine"
+        src="img/truck.png" alt="Camión amarillo con carga naranja">
+    </div>
+
+    <p class="mt-3 p-sombra">Comunicate con nosotros desde la web o a través de nuestro WhatsApp para asesoramiento y contratación de servicios. Tenemos vocación por dar la mejor atención al cliente, con calidad, eficiencia y profesionalismo.</p>
+  </section>
+
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 footer-contact">
+            <h5>Contacto</h5>
+            <p class="p-footer">
+              Luna 385<br>
+              Parque Patricios<br>
+              Ciudad Autónoma de Buenos Aires | Argentina<br><br>
+              <strong>Teléfono:</strong> 011 4308 2306<br>
+              <strong>WhatsApp:</strong> 54 9 344 656 0067 - 54 9 112 387 7011<br>
+              <strong>Email:</strong> info@romargroup.com.ar<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h5>Mudanzas</h5>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Argentina</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Uruguay</a>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Internacionales</a></li>
             </ul>
-    </section>
-    
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h5>Transporte</h5>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Cargas Generales</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Gualeguaychú</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Internacional Argentina - Uruguay</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h5>Depósito</h5>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Almacenaje CABA</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Almacenaje de frontera Gualeguaychú</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Desconsolidación de contenedores</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright-wrap d-md-flex py-4">
+        <div class="mr-md-auto text-center text-md-left">
+          <div class="copyright">
+            &copy; Copyright <strong><span>RomarGroup Soluciones Logísticas</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed & developed by Lemur Media Studio</a>
+          </div>
+        </div>
+        <!--                 <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                    <img src="img/logo.png" alt="Logo One to One" height="20">
+                </div> -->
+      </div>
+    </div>
+  </footer>
 
 
 
 
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+  </script>
 
-
-
-
-
-
-
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
-    </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
+
 </html>
