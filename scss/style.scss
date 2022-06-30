@@ -4,6 +4,7 @@
 @import "./components/navbar.scss";
 @import "./components/depositar.scss";
 @import "./components/footer.scss";
+@import "./components/banner.scss";
 
 body {
     background-color: whitesmoke !important;
@@ -23,7 +24,7 @@ h2 {
     text-align: center;
     font-family: "BentonBlack", sans-serif;
     font-size: 30px;
-    background-color: whitesmoke;
+    margin-top: 150px !important;
 }
 
 h3 {
