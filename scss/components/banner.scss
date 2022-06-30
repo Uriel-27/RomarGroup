@@ -1,0 +1,33 @@
+.banner-1{
+    background-image: url(../img/lager.jpeg);
+    padding: 150px !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-size: cover;
+}
+
+.banner-2{
+    background-image: url(../img/warehouse.jpg);
+    padding: 150px !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 754px){
+    .banner-1{
+        background-size: 200%;
+        padding: 50px !important;
+    }
+
+    .banner-2{
+        background-size: 200%;
+        padding: 50px !important;
+    }
+}

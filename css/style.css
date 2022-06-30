@@ -27,6 +27,14 @@
   p {
     margin: 0 15px !important;
   }
+
+  .frase-final {
+    padding: 50px 50px 10px 50px !important;
+  }
+
+  .frase-final-2 {
+    padding: 0 50px 10px 50px !important;
+  }
 }
 header {
   border-bottom: solid 5px #e23d39;
@@ -116,6 +124,49 @@ header {
 
 .card {
   border: none !important;
+}
+
+.fa-down-long {
+  color: #148c74 !important;
+  font-size: 40px !important;
+}
+
+.fa-angles-right {
+  color: #e23d39;
+  font-size: 30px !important;
+}
+
+.ask {
+  font-size: 18px !important;
+  font-family: "BentonBook", sans-serif;
+  text-decoration: underline;
+  color: #148c74;
+}
+
+.fa-map-location {
+  margin-top: 20px;
+  color: #e23d39;
+  font-size: 150px !important;
+}
+
+.section-color {
+  background: linear-gradient(300deg, #148c74 0%, #148c746c 50%, #148c74 100%);
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-top: 100px;
+}
+
+.fa-list-check {
+  font-size: 80px;
+  margin-top: 20px;
+}
+
+.frase-final {
+  padding: 150px 150px 10px 150px;
+}
+
+.frase-final-2 {
+  padding: 0 150px 10px 150px;
 }
 
 #footer {
@@ -300,6 +351,39 @@ header {
   text-decoration: none;
 }
 
+.banner-1 {
+  background-image: url(../img/lager.jpeg);
+  padding: 150px !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-size: cover;
+}
+
+.banner-2 {
+  background-image: url(../img/warehouse.jpg);
+  padding: 150px !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 754px) {
+  .banner-1 {
+    background-size: 200%;
+    padding: 50px !important;
+  }
+
+  .banner-2 {
+    background-size: 200%;
+    padding: 50px !important;
+  }
+}
 body {
   background-color: whitesmoke !important;
 }
@@ -318,7 +402,7 @@ h2 {
   text-align: center;
   font-family: "BentonBlack", sans-serif;
   font-size: 30px;
-  background-color: whitesmoke;
+  margin-top: 150px !important;
 }
 
 h3 {
