@@ -22,26 +22,15 @@
   font-family: "BentonBlack";
   src: url(../fonts/BentonSans-Black.ttf) format("woff");
 }
-/* PÁGINA PRINCIPAL */
-@media only screen and (max-width: 754px) {
-  p {
-    margin: 0 15px !important;
-  }
-
-  .frase-final {
-    padding: 50px 50px 10px 50px !important;
-  }
-
-  .frase-final-2 {
-    padding: 0 50px 10px 50px !important;
-  }
-}
 header {
   border-bottom: solid 5px #e23d39;
   border-top: solid 5px #148c74;
   padding: 30px;
-  margin-bottom: 100px !important;
+  /*     margin-bottom: 100px !important; */
   background: linear-gradient(300deg, #d4d4d4 0%, #e9e8e8 25%, #f5f5f5 50%, #e9e8e8 75%, #b6b6b6 100%);
+  position: sticky !important;
+  top: 0px;
+  z-index: 90 !important;
 }
 
 .dropdown-navbar:hover {
@@ -95,6 +84,19 @@ header {
   font-size: 12px;
   color: grey;
   text-align: center !important;
+}
+
+.deposito {
+  background-image: url("../img/camion.jpeg");
+  padding: 300px;
+  background-size: cover;
+}
+
+.difuminar {
+  background-color: rgba(240, 248, 255, 0.541);
+  padding: 50px 0 50px 0;
+  border: 1px transparent solid;
+  border-radius: 25px !important;
 }
 
 /* .depositar{
@@ -172,7 +174,7 @@ header {
 #footer {
   color: #fff;
   font-size: 14px;
-  background-color: #148c74;
+  background-color: #000;
   border-top: #e23d39 4px solid;
   margin-top: 100px;
 }
@@ -317,7 +319,7 @@ header {
 }
 
 #footer .copyright-wrap {
-  border-top: 1px solid #e23d39;
+  border-top: 1px solid #148c74;
 }
 
 #footer .credits {
@@ -384,13 +386,55 @@ header {
     padding: 50px !important;
   }
 }
+/* PÁGINA PRINCIPAL */
+@media only screen and (max-width: 754px) {
+  p {
+    margin: 0 15px !important;
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+
+  .frase-final {
+    padding: 50px 50px 10px 50px !important;
+  }
+
+  .frase-final-2 {
+    padding: 0 50px 10px 50px !important;
+  }
+
+  .truck {
+    width: 50%;
+  }
+
+  .deposito {
+    background-image: url("../img/camion.jpeg");
+    padding: 0 !important;
+    background-size: cover !important;
+  }
+
+  .p-principal {
+    text-align: justify;
+    font-family: "BentonBook", sans-serif;
+    margin: 15px !important;
+    text-align: justify !important;
+    padding: 0 !important;
+  }
+  .p-principal .difuminar {
+    background-color: rgba(240, 248, 255, 0.541);
+    padding: 0 !important;
+    border: 1px transparent solid;
+    border-radius: 25px !important;
+  }
+}
 body {
   background-color: whitesmoke !important;
 }
 
 h1 {
   font-family: "BentonBlack", sans-serif;
-  font-size: 45px !important;
+  font-size: 45px;
   color: #000;
   text-align: center;
 }
@@ -422,7 +466,18 @@ h4 {
 p {
   text-align: justify;
   font-family: "BentonBook", sans-serif;
-  margin: 0 300px;
+  margin: 0 350px;
+}
+
+.p-principal {
+  text-align: justify;
+  font-family: "BentonBook", sans-serif;
+  margin: 50px;
+  text-align: center;
+}
+
+.truck {
+  width: 30%;
 }
 
 /* .p-sombra{
