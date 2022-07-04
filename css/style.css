@@ -87,7 +87,7 @@ header {
 }
 
 .deposito {
-  background-image: url("../img/camion.jpeg");
+  background-image: url("../img/containers.jpeg");
   padding: 300px;
   background-size: cover;
 }
@@ -161,6 +161,12 @@ header {
 .fa-list-check {
   font-size: 80px;
   margin-top: 20px;
+}
+
+.fa-warehouse {
+  margin-top: 20px;
+  color: #e23d39;
+  font-size: 150px !important;
 }
 
 .frase-final {
@@ -397,8 +403,36 @@ header {
   background-size: cover;
 }
 
+.banner-5 {
+  background-image: url("../img/road2.jpeg");
+  padding: 150px !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-size: cover;
+}
+
+.banner-6 {
+  background-image: url("../img/road3.jpeg");
+  padding: 150px !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-size: cover;
+}
+
 .nosotros-banner {
-  background-image: url("../img/containers.jpeg");
+  background-image: url("../img/camion.jpeg");
+  padding: 300px;
+  background-size: cover;
+}
+
+.mudanza-banner {
+  background-image: url("../img/road.jpeg");
   padding: 300px;
   background-size: cover;
 }
@@ -424,8 +458,24 @@ header {
     padding: 50px !important;
   }
 
+  .banner-5 {
+    background-size: 200%;
+    padding: 50px !important;
+  }
+
+  .banner-6 {
+    background-size: 200%;
+    padding: 50px !important;
+  }
+
   .nosotros-banner {
     background-image: url("../img/containers.jpeg");
+    padding: 0px !important;
+    background-size: cover;
+  }
+
+  .mudanza-banner {
+    background-image: url("../img/road.jpeg");
     padding: 0px !important;
     background-size: cover;
   }
@@ -484,6 +534,18 @@ header {
   font-size: 150px !important;
 }
 
+.fa-shield-halved {
+  margin-top: 20px;
+  color: #e23d39;
+  font-size: 150px !important;
+}
+
+.fa-circle-plus {
+  margin-top: 20px;
+  color: #148c74;
+  font-size: 150px !important;
+}
+
 body {
   background-color: whitesmoke !important;
 }
@@ -528,7 +590,7 @@ p {
 .p-principal {
   text-align: justify;
   font-family: "BentonMedium", sans-serif;
-  margin: 50px;
+  margin: 20px 70px 20px 70px;
   text-align: center;
 }
 

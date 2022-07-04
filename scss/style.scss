@@ -6,6 +6,7 @@
 @import "./components/banner.scss";
 @import "./components/querys.scss";
 @import "./components/nosotros.scss";
+@import "./components/mudanzas.scss";
 
 body {
     background-color: whitesmoke !important;
@@ -51,7 +52,7 @@ p {
 .p-principal{
         text-align: justify;
         font-family: "BentonMedium", sans-serif;
-        margin: 50px;
+        margin: 20px 70px 20px 70px;
         text-align: center;
 }
 

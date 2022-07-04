@@ -5,7 +5,7 @@
 }
 
 .deposito{
-    background-image: url("../img/camion.jpeg");
+    background-image: url("../img/containers.jpeg");
     padding: 300px;
     background-size: cover;
 }
@@ -81,6 +81,12 @@
 .fa-list-check{
     font-size: 80px;
     margin-top: 20px;
+}
+
+.fa-warehouse{
+    margin-top: 20px;
+    color: $rojo;
+    font-size: 150px !important;
 }
 
 .frase-final{

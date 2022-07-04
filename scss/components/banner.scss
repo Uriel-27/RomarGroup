@@ -42,8 +42,36 @@
     background-size: cover;
 }
 
+.banner-5{
+    background-image: url("../img/road2.jpeg");
+    padding: 150px !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-size: cover;
+}
+
+.banner-6{
+    background-image: url("../img/road3.jpeg");
+    padding: 150px !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-size: cover;
+}
+
 .nosotros-banner{
-    background-image: url("../img/containers.jpeg");
+    background-image: url("../img/camion.jpeg");
+    padding: 300px;
+    background-size: cover;
+}
+
+.mudanza-banner{
+    background-image: url("../img/road.jpeg");
     padding: 300px;
     background-size: cover;
 }
@@ -69,8 +97,24 @@
         padding: 50px !important;
     }
 
+    .banner-5{
+        background-size: 200%;
+        padding: 50px !important;
+    }
+
+    .banner-6{
+        background-size: 200%;
+        padding: 50px !important;
+    }
+
     .nosotros-banner{
         background-image: url("../img/containers.jpeg");
+        padding: 0px !important;
+        background-size: cover;
+    }
+
+    .mudanza-banner{
+        background-image: url("../img/road.jpeg");
         padding: 0px !important;
         background-size: cover;
     }
