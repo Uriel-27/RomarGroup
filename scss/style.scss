@@ -5,6 +5,7 @@
 @import "./components/footer.scss";
 @import "./components/banner.scss";
 @import "./components/querys.scss";
+@import "./components/nosotros.scss";
 
 body {
     background-color: whitesmoke !important;
@@ -49,7 +50,7 @@ p {
 
 .p-principal{
         text-align: justify;
-        font-family: "BentonBook", sans-serif;
+        font-family: "BentonMedium", sans-serif;
         margin: 50px;
         text-align: center;
 }

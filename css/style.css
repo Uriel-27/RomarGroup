@@ -93,7 +93,7 @@ header {
 }
 
 .difuminar {
-  background-color: rgba(240, 248, 255, 0.541);
+  background-color: rgba(240, 248, 255, 0.63);
   padding: 50px 0 50px 0;
   border: 1px transparent solid;
   border-radius: 25px !important;
@@ -375,6 +375,34 @@ header {
   background-size: cover;
 }
 
+.banner-3 {
+  background-image: url("../img/despacho.jpeg");
+  padding: 150px !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-size: cover;
+}
+
+.banner-4 {
+  background-image: url("../img/production.jpg");
+  padding: 150px !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-size: cover;
+}
+
+.nosotros-banner {
+  background-image: url("../img/containers.jpeg");
+  padding: 300px;
+  background-size: cover;
+}
+
 @media only screen and (max-width: 754px) {
   .banner-1 {
     background-size: 200%;
@@ -384,6 +412,22 @@ header {
   .banner-2 {
     background-size: 200%;
     padding: 50px !important;
+  }
+
+  .banner-3 {
+    background-size: 200%;
+    padding: 50px !important;
+  }
+
+  .banner-4 {
+    background-size: 200%;
+    padding: 50px !important;
+  }
+
+  .nosotros-banner {
+    background-image: url("../img/containers.jpeg");
+    padding: 0px !important;
+    background-size: cover;
   }
 }
 /* PÁGINA PRINCIPAL */
@@ -428,6 +472,18 @@ header {
     border-radius: 25px !important;
   }
 }
+.fa-boxes-packing {
+  margin-top: 20px;
+  color: #e23d39;
+  font-size: 150px !important;
+}
+
+.fa-suitcase {
+  margin-top: 20px;
+  color: #148c74;
+  font-size: 150px !important;
+}
+
 body {
   background-color: whitesmoke !important;
 }
@@ -471,7 +527,7 @@ p {
 
 .p-principal {
   text-align: justify;
-  font-family: "BentonBook", sans-serif;
+  font-family: "BentonMedium", sans-serif;
   margin: 50px;
   text-align: center;
 }
