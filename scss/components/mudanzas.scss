@@ -1,0 +1,25 @@
+.fa-shield-halved {
+    margin-top: 20px;
+    color: $rojo;
+    font-size: 150px !important;
+}
+
+.fa-circle-plus {
+    margin-top: 20px;
+    color: $verde;
+    font-size: 150px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: $verde !important;
+    background-color: white !important;
+}
+
+.accordion-button:focus {
+    border-color: $verde !important;
+}
+
+.lista-internacionales {
+    display: block;
+    margin: auto;    
+}

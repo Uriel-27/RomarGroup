@@ -4,6 +4,10 @@
         margin: 0 15px !important;
     }
 
+    h1{
+        font-size: 30px !important;
+    }
+
     .frase-final{
         padding: 50px 50px 10px 50px !important;
     }
@@ -11,4 +15,29 @@
     .frase-final-2{
         padding: 0 50px 10px 50px !important;
     }
+
+    .truck{
+        width: 50%;
+    }
+
+    .deposito{
+        background-image: url("../img/camion.jpeg");
+        padding: 0 !important;
+        background-size: cover !important;
+    }
+
+    .p-principal{
+        text-align: justify;
+        font-family: "BentonBook", sans-serif;
+        margin: 15px !important;
+        text-align: justify !important;
+        padding: 0 !important;
+
+    .difuminar{
+        background-color: rgba(240, 248, 255, 0.541);
+        padding: 0 !important;
+        border: 1px transparent solid;
+        border-radius: 25px !important;
+        }
+}
 }
