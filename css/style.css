@@ -34,6 +34,16 @@ header {
   filter: drop-shadow(0 0 1rem black);
 }
 
+.navbar-nav {
+  font-family: "BentonBlack", sans-serif !important;
+  font-size: 11px;
+}
+
+.dropdown-item {
+  font-family: "BentonBlack", sans-serif !important;
+  font-size: 11px;
+}
+
 .dropdown-navbar:hover {
   background-color: #148c74 !important;
   color: whitesmoke !important;
