@@ -446,6 +446,13 @@ header {
   background-image: url("../img/road.jpeg");
   padding: 300px;
   background-size: cover;
+  max-width: 100%;
+  max-width: 100%;
+}
+
+.img-principal {
+  width: 100%;
+  max-height: 100%;
 }
 
 @media only screen and (max-width: 754px) {
@@ -580,6 +587,7 @@ h1 {
   font-size: 45px;
   color: #000;
   text-align: center;
+  margin-top: 150px !important;
 }
 
 h2 {
