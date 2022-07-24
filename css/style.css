@@ -434,6 +434,39 @@ header {
   background-size: cover;
 }
 
+.banner-7 {
+  background-image: url("../img/camion-2.jpg");
+  padding: 150px !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-size: cover;
+}
+
+.banner-8 {
+  background-image: url("../img/camion-3.jpg");
+  padding: 150px !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-size: cover;
+}
+
+.banner-9 {
+  background-image: url("../img/camion-4.jpg");
+  padding: 150px !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-size: cover;
+}
+
 .nosotros-banner {
   background-image: url("../img/camion.jpeg");
   padding: 300px;
@@ -480,6 +513,21 @@ header {
   }
 
   .banner-6 {
+    background-size: 200%;
+    padding: 50px !important;
+  }
+
+  .banner-7 {
+    background-size: 200%;
+    padding: 50px !important;
+  }
+
+  .banner-8 {
+    background-size: 200%;
+    padding: 50px !important;
+  }
+
+  .banner-9 {
     background-size: 200%;
     padding: 50px !important;
   }
