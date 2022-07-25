@@ -586,6 +586,31 @@ header {
     border-radius: 25px !important;
   }
 }
+.redes {
+  position: sticky !important;
+  bottom: 3% !important;
+}
+
+.colorIg {
+  color: black !important;
+  text-shadow: 0 0 7px black, 0 0 10px black, 0 0 21px black, 0 0 42px #148c74, 0 0 82px #148c74, 0 0 92px #148c74, 0 0 102px #148c74, 0 0 151px #148c74;
+}
+.colorIg a {
+  text-decoration: none !important;
+  color: #148c74;
+}
+.colorIg a:hover {
+  color: #148c74 !important;
+}
+
+/* MOBILE STYLES */
+/* @media only screen and (max-width: 768px) {
+    .redes {
+        position: sticky !important;
+        bottom: 95% !important;
+        justify-content: center;
+    }
+}*/
 .fa-boxes-packing {
   margin-top: 20px;
   color: #e23d39;
