@@ -370,7 +370,7 @@ header {
 
 .banner-1 {
   background-image: url(../img/lager.jpeg);
-  padding: 150px !important;
+  padding: 200px !important;
   display: flex;
   justify-content: center !important;
   align-items: center;
@@ -381,7 +381,7 @@ header {
 
 .banner-2 {
   background-image: url(../img/warehouse.jpg);
-  padding: 150px !important;
+  padding: 200px !important;
   display: flex;
   justify-content: center !important;
   align-items: center;
@@ -392,7 +392,7 @@ header {
 
 .banner-3 {
   background-image: url("../img/despacho.jpeg");
-  padding: 150px !important;
+  padding: 200px !important;
   display: flex;
   justify-content: center !important;
   align-items: center;
@@ -403,7 +403,7 @@ header {
 
 .banner-4 {
   background-image: url("../img/production.jpg");
-  padding: 150px !important;
+  padding: 200px !important;
   display: flex;
   justify-content: center !important;
   align-items: center;
@@ -414,7 +414,7 @@ header {
 
 .banner-5 {
   background-image: url("../img/road2.jpeg");
-  padding: 150px !important;
+  padding: 200px !important;
   display: flex;
   justify-content: center !important;
   align-items: center;
@@ -425,7 +425,7 @@ header {
 
 .banner-6 {
   background-image: url("../img/road3.jpeg");
-  padding: 150px !important;
+  padding: 200px !important;
   display: flex;
   justify-content: center !important;
   align-items: center;
@@ -436,7 +436,7 @@ header {
 
 .banner-7 {
   background-image: url("../img/camion-2.jpg");
-  padding: 150px !important;
+  padding: 200px !important;
   display: flex;
   justify-content: center !important;
   align-items: center;
@@ -447,7 +447,7 @@ header {
 
 .banner-8 {
   background-image: url("../img/camion-3.jpg");
-  padding: 150px !important;
+  padding: 200px !important;
   display: flex;
   justify-content: center !important;
   align-items: center;
@@ -458,7 +458,7 @@ header {
 
 .banner-9 {
   background-image: url("../img/camion-4.jpg");
-  padding: 150px !important;
+  padding: 200px !important;
   display: flex;
   justify-content: center !important;
   align-items: center;
@@ -586,31 +586,69 @@ header {
     border-radius: 25px !important;
   }
 }
-.redes {
-  position: sticky !important;
-  bottom: 3% !important;
+.logosticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 850px;
+  left: 20px;
+  float: left;
+  z-index: 10 !important;
 }
 
-.colorIg {
-  color: black !important;
-  text-shadow: 0 0 7px black, 0 0 10px black, 0 0 21px black, 0 0 42px #148c74, 0 0 82px #148c74, 0 0 92px #148c74, 0 0 102px #148c74, 0 0 151px #148c74;
+@media only screen and (max-width: 360px) {
+  .logosticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 650px;
+    left: 5px;
+    float: left;
+  }
 }
-.colorIg a {
-  text-decoration: none !important;
-  color: #148c74;
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+  .logosticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 550px;
+    left: 5px;
+    float: left;
+  }
 }
-.colorIg a:hover {
-  color: #148c74 !important;
+@media only screen and (min-width: 376px) and (max-width: 393px) {
+  .logosticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 750px;
+    left: 5px;
+    float: left;
+  }
 }
-
-/* MOBILE STYLES */
-/* @media only screen and (max-width: 768px) {
-    .redes {
-        position: sticky !important;
-        bottom: 95% !important;
-        justify-content: center;
-    }
-}*/
+@media only screen and (min-width: 394px) and (max-width: 414px) {
+  .logosticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 800px;
+    left: 5px;
+    float: left;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 540px) {
+  .logosticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 620px;
+    left: 5px;
+    float: left;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .logosticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 700px;
+    left: 5px;
+    float: left;
+  }
+}
 .fa-boxes-packing {
   margin-top: 20px;
   color: #e23d39;
