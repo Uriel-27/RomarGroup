@@ -97,6 +97,17 @@
     background-size: cover;
 }
 
+.banner-10{
+    background-image: url("../img/mudanza.jpeg");
+    padding: 200px !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-size: cover;
+}
+
 .nosotros-banner{
     background-image: url("../img/camion.jpeg");
     padding: 300px;
@@ -158,6 +169,11 @@
     }
 
     .banner-9{
+        background-size: 200%;
+        padding: 50px !important;
+    }
+
+    .banner-10{
         background-size: 200%;
         padding: 50px !important;
     }
