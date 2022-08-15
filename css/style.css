@@ -26,9 +26,9 @@ header {
   padding: 30px;
   /*     margin-bottom: 100px !important; */
   background: whitesmoke;
-  position: sticky !important;
-  top: 0px;
-  z-index: 90 !important;
+  /*     position: sticky !important;
+      top: 0px;
+      z-index: 90 !important; */
   filter: drop-shadow(0 0 1rem black);
 }
 
@@ -467,6 +467,17 @@ header {
   background-size: cover;
 }
 
+.banner-10 {
+  background-image: url("../img/mudanza.jpeg");
+  padding: 200px !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-size: cover;
+}
+
 .nosotros-banner {
   background-image: url("../img/camion.jpeg");
   padding: 300px;
@@ -528,6 +539,11 @@ header {
   }
 
   .banner-9 {
+    background-size: 200%;
+    padding: 50px !important;
+  }
+
+  .banner-10 {
     background-size: 200%;
     padding: 50px !important;
   }
